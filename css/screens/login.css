@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    background: rgb(46,107,255);
+background: linear-gradient(180deg, rgba(46,107,255,1) 0%, rgba(151,174,255,1) 24%, rgba(255,255,255,1) 56%);
+}
+
+.welcome-header {
+    margin: 90px 0px;
+    text-align: center;
+}
+
+.welcome-header__title {
+    margin-bottom: 20px;
+}
+
+.welcome-header__text {
+    opacity: 0.6;
+}
+
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+}
+
+#login-form input{
+    border: 1.5px solid rgb(126, 126, 126);
+    border-radius: 30px;
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#login-form input[type="submit"] {
+    background: rgb(172,228,102);
+    background: linear-gradient(0deg, rgba(172,228,102,1) 0%, rgba(220,244,189,1) 48%, rgba(255,255,255,1) 100%);
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+#login-form a{
+    font-size: 13px;
+    text-align: center;
+}

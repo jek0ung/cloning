@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "reset.css";
+@import "screens/variables.css";
+@import "components/status-bar.css";
+@import "screens/login.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "screens/friends.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "screens/find.css";
+@import "components/icon-row.css";
+@import "screens/more.css";
+@import "components/alt-screen-header.css";
+@import "screens/chat.css";
+
+
+@font-face {
+    font-family:"Genty Demo Regular";src:url("GentyDemo-Regular.eot?") format("eot"),url("GentyDemo-Regular.woff") format("woff"),url("GentyDemo-Regular.ttf") format("truetype"),url("GentyDemo-Regular.svg#GentyDemo-Regular") format("svg");font-weight:normal;font-style:normal;}
+@font-face {
+    font-family:'Helvetica Roman';
+    src: url('fonts/Helvetica-Roman.woff') format('woff');
+}
+
+body{
+    font-family:'Open Sans';
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
