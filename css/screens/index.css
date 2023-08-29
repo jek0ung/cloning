@@ -1,0 +1,31 @@
+#lock-screen {
+    height: 100vh;
+    background-image: url('https://cdn.discordapp.com/attachments/946099983860514898/1145857410607620137/bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#click-form{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 30px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+#click-form input{
+    border-radius: 30px;
+    padding: 17px 0px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#click-form input[type="submit"] {
+    background: rgb(172,228,102);
+    background: linear-gradient(0deg, rgba(172,228,102,1) 0%, rgba(220,244,189,1) 48%, rgba(255,255,255,1) 100%);
+    border: 2px solid black;
+    cursor: pointer;
+}

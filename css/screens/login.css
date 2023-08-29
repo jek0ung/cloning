@@ -1,7 +1,7 @@
-body {
+#login-screen {
     height: 100vh;
     background: rgb(46,107,255);
-background: linear-gradient(180deg, rgba(46,107,255,1) 0%, rgba(151,174,255,1) 24%, rgba(255,255,255,1) 56%);
+    background: linear-gradient(180deg, rgba(46,107,255,1) 0%, rgba(151,174,255,1) 24%, rgba(255,255,255,1) 56%);
 }
 
 .welcome-header {

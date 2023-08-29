@@ -15,4 +15,6 @@
 
 .icon-row__icons span {
     margin-top: 18px;
+    font-weight: 600;
+    opacity: 0.8;
 }
